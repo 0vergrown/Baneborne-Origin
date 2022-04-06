@@ -1,0 +1,27 @@
+{
+    "name":"Quick On Your Feet",
+    "description":"You dodge all forms of projectiles.",
+    "type":"origins:multiple",
+    "dodge":{
+       "type":"origins:action_when_damage_taken",
+       "entity_action":{
+          "type":"origins:execute_command",
+          "command":"tp @s ^-2 ^1 ^2 ~-75 ~0"
+       },
+       "damage_condition":{
+          "type":"origins:projectile"
+       },
+       "cooldown":1
+    },
+    "projectile_invulnerability":{
+       "type":"origins:modify_damage_taken",
+       "modifier":{
+          "operation":"multiply_total",
+          "value":0
+       },
+       "damage_condition":{
+          "type":"origins:projectile"
+       },
+       "cooldown":1
+    }
+}

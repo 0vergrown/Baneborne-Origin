@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"baneborne:leap",
+		"baneborne:cursing_beam",
+		"baneborne:remember",
+		"baneborne:otherworldly_love",
+		"baneborne:quick_on_your_feet",
+		"baneborne:hollow",
+		"baneborne:death_itself",
+		"baneborne:not_alone",
+		"baneborne:chionophobia",
+		"baneborne:undead"
+	],
+	"icon": "minecraft:mossy_cobblestone",
+	"order": 10,
+	"impact": 3,
+	"name": "Baneborne",
+	"description": "Widely seen as a figure representing death, the Baneborne haunts the areas marked by death and suffering."
+}

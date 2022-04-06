@@ -1,0 +1,4 @@
+scoreboard objectives add food dummy
+scoreboard players set #hit chaintemp 1
+summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:0,Motion:[0.0,0.0,0.0],FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;0,16777215,0,16777215,0,16777215,0,16777215],FadeColors:[I;0,16777215,0,16777215,0,16777215,0,16777215,0,16777215]},{Type:0,Colors:[I;0,16777215,0,16777215,0,16777215,0,16777215,0,16777215],FadeColors:[I;0,16777215,0,16777215,0,16777215,0,16777215,0,16777215]},{Type:0,Colors:[I;0,16777215,0,16777215,0,16777215,0,16777215,0,16777215],FadeColors:[I;0,16777215,0,16777215,0,16777215,0,16777215,0,16777215]}]}}}}
+summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:mobSpell,Radius:0.8f,RadiusOnUse:0.8f,Duration:20,Color:0,Effects:[{Id:20,Amplifier:2,Duration:140,ShowParticles:0b}]}
